@@ -7,9 +7,10 @@
     "full-test": "eslint [0-9]*.js && jest"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.0",
+    "@babel/core": "^7.22.17",
     "@babel/node": "^7.8.0",
-    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-env": "^7.22.15",
+    "babel-jest": "^29.6.4",
     "eslint": "^8.49.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
@@ -38,7 +39,6 @@
     "arraybuffer.prototype.slice": "^1.0.2",
     "astral-regex": "^1.0.0",
     "available-typed-arrays": "^1.0.5",
-    "babel-jest": "^29.6.4",
     "babel-plugin-istanbul": "^6.1.1",
     "babel-plugin-jest-hoist": "^29.6.3",
     "babel-plugin-polyfill-corejs2": "^0.4.5",
